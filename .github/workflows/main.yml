@@ -22,4 +22,5 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://abhishek-tiwari.cloudns.be -–delete
+          aws s3 sync . s3://abhishek-tiwari.cloudns.be --delete
+
